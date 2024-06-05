@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerie d'art</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2em;
+            align-items: center;
+        }
+        .gallery-section {
+            margin-bottom: 3em;
+        }
+        .gallery-section h2 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+        .gallery-section .image-placeholder {
+            width: 300px;
+            height: 200px;
+            background-color: #ccc;
+            display: inline-block;
+            margin: 1em;
+            vertical-align: top;
+            border: 1px solid #999;
+        }
+        .pcubisme {
+            margin-right: 320px;
+            margin-top: 20px;
+        }
+        .hcubisme {
+            margin-bottom: 40px;
+        }
+        
+        .psurr{
+            margin-right: 320px;
+            margin-top: 20px;
+        }
+        .hsurr {
+            margin-bottom: 40px;
+        }
+
+        .pimpre {
+            margin-right: 320px;
+            margin-top: 20px; 
+        }
+        .himpre {
+            margin-bottom: 40px;
+        }
+
+        .pabstrait {
+            margin-right: 320px;
+            margin-top: 20px;  
+        }
+        .habstrait {
+            margin-bottom: 40px;
+        }
+
+        .gallery-section .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .close {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            left: 100px;
+            top: 40px;
+            font-size: 2em;
+        }
+        .close:hover {
+            color: rgb(255, 0, 0);
+        }
+        .revenir {
+            font-size: 50%;
+            position: absolute;
+            left: 85px;
+            top: 65px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galerie d'Art</h1>
+        <a class="close" href="/Users/aouer/Desktop/HTML design 3ème trimèstre - Galerie d'art (IA)/accueil/index.html"><i class="fa fa-close"></i></a>
+        <h3 class="revenir">Revenir <br> à l'accueil</h3>
+    </header>
+
+    <div class="container">
+
+        <section class="gallery-section">
+            <h2 class="hcubisme">Cubisme</h2>
+            <p class="pcubisme">Le cubisme est un mouvement artistique majeur du début du XXe siècle, qui introduit une vraie révolution dans la peinture mais aussi la sculpture ou encore la littérature (par exemple Alcools de Guillaume Apollinaire).</p>
+            <div class="imagecubisme">
+                <div class="image-placeholder"><img src="/Users/aouer/Desktop/HTML design 3ème trimèstre - Galerie d'art (IA)/photos/cubisme/Firefly une œuvre d'art du type cubisme 9189.jpg" alt=""></div>
+                <div class="image-placeholder"><img src="/Users/aouer/Desktop/HTML design 3ème trimèstre - Galerie d'art (IA)/photos/cubisme/Firefly une œuvre d'art du type cubisme 28160.jpg" alt=""></div>
+                <div class="image-placeholder"><img src="photos/cubisme/Firefly une œuvre d'art du type cubisme 71511.jpg" alt=""></div>
+            </div>
+        </section>
+
+
+        <section class="gallery-section">
+            <h2 class="hsurr">Surréalisme</h2>
+            <p class="psurr">Le surréalisme est un mouvement poétique et artistique du XXᵉ siècle directement issu de la révolte incarnée par le mouvement dada tout à la fin de la Première Guerre mondiale.</p>
+            <div class="image-placeholder"><img src="photos/surréalisme/Firefly une œuvre d'art du type surréaliste (comme pour les arts de salvador dali) 9189.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/surréalisme/Firefly une œuvre d'art du type surréaliste (comme pour les arts de salvador dali) 28160.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/surréalisme/Firefly une œuvre d'art du type surréaliste (comme pour les arts de salvador dali) 71511.jpg" alt=""></div>
+        </section>
+
+
+        <section class="gallery-section">
+            <h2 class="himpre">Impressionnisme</h2>
+            <p class="pimpre">L'impressionnisme est un mouvement pictural apparu en France dans les années 1860 en opposition à l'art académique et visant à représenter le caractère éphémère de la lumière et ses effets sur les couleurs et les formes.</p>
+            <div class="image-placeholder"><img src="photos/impressionisme/Firefly une œuvre d'art du type impressionisme 9189.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/impressionisme/Firefly une œuvre d'art du type impressionisme 28160.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/impressionisme/Firefly une œuvre d'art du type impressionisme 71511.jpg" alt=""></div>
+        </section>
+
+
+        <section class="gallery-section">
+            <h2 class="habstrait">Art Abstrait</h2>
+            <p class="pabstrait">La caractéristique principale de l'art abstrait, comme l'indique sa définition, est la volonté de s'éloigner d'une représentation objective des éléments du monde naturel en déformant le réel. Connu comme le mouvement opposé à l'art figuratif, l'art abstrait devient une forme artistique majeure à partir du XXème siècle.</p>
+            <div class="image-placeholder"><img src="photos/art abstrait/Firefly art abstrait 9915.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/art abstrait/Firefly art abstrait 79912.jpg" alt=""></div>
+            <div class="image-placeholder"><img src="photos/art abstrait/Firefly art abstrait 99226.jpg" alt=""></div>
+        </section>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
